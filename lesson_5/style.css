@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #FF9D00
+    --white: #ffffff 
+    --dark-blue: #1c2d33
+    --dark-grey: #232323
+    --brown: #202020
+
+} 
+
+body, button, input, textarea {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+body {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+
+}
+
+header {
+    margin: 0;
+    max-width: var(--max-width);
+    margin-bottom: 92px;
+}
+
+.header__tittle {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.main {
+    flex: 1 1;
+    max-width: var(--max-width);
+}
+
+.section {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50%;
+}
+
+.section:not(:last-child) 
+
+.section__title {
+    font-size: 35px;
+    font-weight: 700;
+    text-transform:  uppercase;
+    color:yellow ;
+    margin-bottom: 32px;
+
+}
+
+.section__text {
+    
+}

@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#990909 ;
+    padding: 12px;
+}
+.header {
+    text-align: center;
+}
+.header__title {
+    margin-bottom: 8px;
+}
+.navigation {
+    width: 100%;
+    background-color: black;
+    padding: 24px 40px;
+}
+.navigation__list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+
+}
+.navigation__item
