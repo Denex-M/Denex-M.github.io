@@ -13,4 +13,4 @@
 * Lesson 4
   * [Lesson 4.1](https://denex-m.github.io/beetroot/lesson_4_css/css_1/index.html)
   * [Lesson 4.2]()
-* [Lesson 5]()
+* [Lesson 5](https://denex-m.github.io/beetroot/lesson_5/index.html)
