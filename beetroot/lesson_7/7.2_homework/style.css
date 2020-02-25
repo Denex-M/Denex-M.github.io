@@ -1,0 +1,123 @@
+@import url(weather-icons.css);
+@import url(weather-icons-wind.css);
+
+:root {
+    --main-color: #3399CC;
+    --Lissbon-color: #3399CC;
+    --Paris-color: #33CCCC;
+    --Belgrade-color: #996699;
+    --Moscow-color: #C24747;
+    --Tel-aviv-color: #E2674A;
+    --Cair-color: #E2674A;
+    --New-York-color: #99CC99;
+    --New-Dehli-clor: #669999;
+    --San-Francisco-color: #CC6699;
+    --Tokyo-color: #339966;
+    --Sydney-color: #666699;
+    --white: #ffffff;
+    --border-color: #2B81AC;
+    --max-width: #E2674A;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 24px solid var(--border-color);
+    background-color: var(--main-color);
+}
+
+.header {
+    margin: 0 auto;
+    max-width: var(--max-width);
+    margin-bottom: 32px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--white)
+
+}
+
+.main {
+    margin: 0 auto;
+    max-width: var(--max-width);
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    border: 2px solid var(--white);
+ 
+}
+
+.list__item{
+    border: 2px solid var(--white);
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+    flex-wrap: wrap;
+    
+}
+.city__deg {
+    color: var(--white);
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.city__icon {
+    color: var(--white);
+
+}
+
+.city__row {
+
+
+}
+.list__item:hover{
+
+
+}
+
+.list__item:nth-child(1){
+background-color: var(--Lissbon-color);
+}
+.list__item:nth-child(2){
+    background-color: var(--Paris-color);
+}
+.list__item:nth-child(3){
+    background-color: var(--Belgrade-color);
+}
+.list__item:nth-child(4){
+    background-color: var(--Moscow-color);
+}
+.list__item:nth-child(5){
+    background-color: var(--Tel-aviv-color);
+}
+.list__item:nth-child(6){
+    background-color: var(--Cair-color);
+}
+.list__item:nth-child(7){
+    background-color: var(--New-Dehli-clor);
+}
+.list__item:nth-child(8){
+    background-color: var(--San-Francisco-color);
+}
+.list__item:nth-child(9){
+    background-color: var(--New-Dehli-clor);
+}
+.list__item:nth-child(10){
+    background-color: var(--Tokyo-color);
+}
+.list__item:nth-child(11){
+    background-color: var(--Sydney-color);
+}
+
