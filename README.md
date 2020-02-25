@@ -16,3 +16,6 @@
   * [Lesson 4.2]()
 * [Lesson 5](https://denex-m.github.io/beetroot/lesson_5/index.html)
 * [Lesson 6](https://denex-m.github.io/beetroot/lesson_6/index.html)
+* Lesson 7
+  * [Lesson 7.1](https://denex-m.github.io/beetroot/lesson_7/7.1_homework/index.html)
+  
