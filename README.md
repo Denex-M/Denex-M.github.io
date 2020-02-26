@@ -20,6 +20,6 @@
   * [Lesson 7.1](https://denex-m.github.io/beetroot/lesson_7/7.1_homework/index.html)
   * [Lesson 7.2](https://denex-m.github.io/beetroot/lesson_7/7.2_homework/index.html)
 * Lesson 8
-  * [Lesson 8.1](https://denex-m.github.io/beetroot/lesson_8/8.1_homework/index.html)
+  * [Lesson 8.1](https://denex-m.github.io/beetroot/lesson_8/lesson_8.1_homework/index.html)
  
   
